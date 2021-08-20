@@ -33,5 +33,10 @@ namespace GitHubActionsDemoApp
             return x / y;
         }
 
+        public static double Modulus(double x, double y)
+        {
+            return x % y;
+        }
+
     }
 }

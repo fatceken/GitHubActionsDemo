@@ -101,7 +101,7 @@ namespace UnitTests
         }
 
         [Fact]
-        public void should__find_modulus_of_given_two_number()
+        public void should_find_modulus_of_given_two_number()
         {
             //Arrange
 

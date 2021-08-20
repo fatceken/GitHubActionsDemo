@@ -100,5 +100,24 @@ namespace UnitTests
             Assert.Throws<DivideByZeroException>(sut);
         }
 
+        [Fact]
+        public void should__find_modulus_of_given_two_number()
+        {
+            //Arrange
+
+            var x = 10;
+            var y = 2;
+            //var expected = x % y;
+            var expected = 9;
+
+            //Act
+
+            var sut = SampleMath.Modulus(x, y);
+
+            //Assert
+
+            Assert.Equal(expected, sut);
+        }
+
     }
 }

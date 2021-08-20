@@ -107,9 +107,8 @@ namespace UnitTests
 
             var x = 10;
             var y = 2;
-            //var expected = x % y;
-            var expected = 9;
-
+            var expected = x % y;
+            
             //Act
 
             var sut = SampleMath.Modulus(x, y);
